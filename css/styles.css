@@ -1,6 +1,9 @@
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 ul,
@@ -14,12 +17,15 @@ a {
 
 /* #region header */
 .header {
+  /* */
 }
 
 .nav {
+  /* */
 }
 
 .logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
@@ -31,10 +37,13 @@ a {
 .logo-span {
   color: #2e2f42;
 }
+
 .menu {
+  /*  */
 }
 
 .menu-item {
+  /*  */
 }
 
 .menu-link {
@@ -52,6 +61,47 @@ a {
 }
 
 /* #endregion header */
+
+/* #region portfolio */
+
+.portfolio-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-item {
+  margin: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.portfolio-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.portfolio-image {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.portfolio-description {
+  font-weight: 400;
+  margin-top: 5px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* #endregion portfolio */
 
 /* #region home */
 
@@ -77,16 +127,14 @@ a {
 }
 
 .home-button:hover,
-.home.home-button:focus {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+.home-button:focus {
   background: #404bbf;
 }
+
 /* #endregion home */
-
-/* # region portfolio */
-
-/* # endregion portfolio */
 
 .logo-span-footer {
   color: #fff;
+  background-color: #2e2f42;
+  line-height: 1.17;
 }
