@@ -258,7 +258,7 @@ main {
 address {
   font-style: normal;
 }
-мійCSS: body {
+мійcss: body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   color: #434455;
@@ -474,9 +474,10 @@ main {
 .portfolio-title {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -484,13 +485,14 @@ main {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
 /* Footer */
 .footer {
   text-align: center;
-  background-color: #f5f4fa;
+  background-color: #2e2f42;
 }
 
 .footer .logo {
@@ -502,16 +504,16 @@ main {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-
 .logo-span-footer {
-  color: #2e2f42;
+  color: #f4f4fd;
 }
 
 .footer-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
 
 /* Address */
