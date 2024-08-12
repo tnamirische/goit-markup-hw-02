@@ -172,44 +172,31 @@ main {
 }
 
 .team-list {
-  /* Ensure that the list items are laid out nicely */
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px; /* Space between items */
 }
 
 .team-item {
   text-align: center;
-  background-color: #ffffff; /* Background color for list items */
-  padding: 20px;
-  border-radius: 8px; /* Optional: to make the corners rounded */
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 1px rgba(0, 0, 0, 0.1),
-    0px 2px 1px rgba(0, 0, 0, 0.1); /* Optional: for a subtle shadow effect */
+  background-color: #ffffff;
 }
 
 .team-photo {
-  max-width: 100%; /* Ensure photos scale nicely */
-  height: auto;
-  border-radius: 50%; /* Optional: Make the images circular */
 }
 
 .team-name {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 36px; /* Set text size */
-  line-height: 1.11; /* Set line height */
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize; /* Capitalize text */
-  color: #2e2f42; /* Set text color */
-  margin: 10px 0;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .team-role {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em; /* Letter spacing for paragraph text */
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
