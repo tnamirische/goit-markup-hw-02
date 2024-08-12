@@ -58,14 +58,15 @@ a {
   color: #404bbf; /* Зміна кольору при ховері, фокусі або активному стані */
 }
 
-/* Контактна інформація */
 .contact-info a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal; /* Забираємо курсив */
+}
+.address {
+  font-style: normal;
 }
 
 .contact-info a:hover,
