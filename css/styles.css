@@ -57,8 +57,7 @@ a {
 }
 
 .menu-link:hover,
-.menu-link:focus,
-.menu-link:active {
+.menu-link:focus {
   color: #404bbf; /* Зміна кольору при ховері, фокусі, або активному стані */
 }
 
