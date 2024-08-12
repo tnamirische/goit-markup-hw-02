@@ -32,7 +32,6 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -52,7 +51,6 @@ a {
 .menu-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -66,7 +64,6 @@ a {
 .contact-info a {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -84,10 +81,6 @@ main {
 
 /* Home Section */
 .home-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
   text-align: center;
 }
 
@@ -95,7 +88,6 @@ main {
   font-family: "Raleway", sans-serif;
   font-weight: 900;
   font-size: 50px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -105,10 +97,8 @@ main {
   padding: 15px 25px;
   background-color: #4d5ae5;
   border: none;
-  border-radius: 50px;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.5;
   color: #ffffff;
 }
 
@@ -124,7 +114,6 @@ main {
   font-family: "Raleway", sans-serif;
   font-weight: 900;
   font-size: 40px;
-  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: uppercase;
@@ -139,22 +128,18 @@ main {
 }
 
 .qualities-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
 }
 
 .quality-item {
   padding: 20px;
   background-color: #f5f4fa;
-  border-radius: 10px;
 }
 
 .quality-title {
   font-family: "Raleway", sans-serif;
   font-weight: 900;
   font-size: 24px;
-  line-height: 1.5;
   color: #4d5ae5;
   margin-bottom: 10px;
 }
@@ -162,7 +147,6 @@ main {
 .quality-description {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -174,20 +158,14 @@ main {
 }
 
 .team-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
 
 .team-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
 }
 
 .team-photo {
-  border-radius: 10px;
   margin-bottom: 10px;
 }
 
@@ -195,14 +173,12 @@ main {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.5;
   color: #4d5ae5;
 }
 
 .team-role {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
   color: #434455;
 }
 
@@ -212,19 +188,10 @@ main {
 }
 
 .portfolio-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
 
-.portfolio-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .portfolio-item img {
-  border-radius: 10px;
   margin-bottom: 10px;
 }
 
@@ -232,14 +199,12 @@ main {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.5;
   color: #4d5ae5;
 }
 
 .portfolio-category {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
   color: #434455;
 }
 
@@ -254,7 +219,6 @@ main {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -267,7 +231,6 @@ main {
 .footer-text {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
   color: #434455;
   margin: 10px 0 0;
 }
