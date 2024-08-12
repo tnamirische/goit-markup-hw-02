@@ -38,12 +38,6 @@ a {
   color: #2e2f42;
 }
 
-.menu {
-}
-
-.menu-item {
-}
-
 .menu-link {
   font-weight: 500;
   font-size: 16px;
@@ -88,8 +82,6 @@ a {
 }
 
 /* Main */
-main {
-}
 
 /* Home Section */
 .home-section {
@@ -141,9 +133,6 @@ main {
   text-align: center;
 }
 
-.qualities-list {
-}
-
 .quality-item {
   background-color: #f5f4fa;
 }
@@ -171,15 +160,9 @@ main {
   background-color: #f4f4fd;
 }
 
-.team-list {
-}
-
 .team-item {
   text-align: center;
   background-color: #ffffff;
-}
-
-.team-photo {
 }
 
 .team-name {
@@ -203,12 +186,6 @@ main {
 /* Portfolio Section */
 .portfolio-section {
   text-align: center;
-}
-
-.portfolio-list {
-}
-
-.portfolio-item {
 }
 
 .portfolio-title {
@@ -298,12 +275,6 @@ a {
   color: #2e2f42;
 }
 
-.menu {
-}
-
-.menu-item {
-}
-
 .menu-link {
   font-weight: 500;
   font-size: 16px;
@@ -348,8 +319,6 @@ a {
 }
 
 /* Main */
-main {
-}
 
 /* Home Section */
 .home-section {
@@ -401,9 +370,6 @@ main {
   text-align: center;
 }
 
-.qualities-list {
-}
-
 .quality-item {
   background-color: #f5f4fa;
 }
@@ -431,15 +397,9 @@ main {
   background-color: #f4f4fd;
 }
 
-.team-list {
-}
-
 .team-item {
   text-align: center;
   background-color: #ffffff;
-}
-
-.team-photo {
 }
 
 .team-name {
@@ -463,12 +423,6 @@ main {
 /* Portfolio Section */
 .portfolio-section {
   text-align: center;
-}
-
-.portfolio-list {
-}
-
-.portfolio-item {
 }
 
 .portfolio-title {
