@@ -49,14 +49,18 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455; /* Загальний колір для всіх посилань */
+  color: #434455; 
 }
+
+.menu-link.menu-link_first {
+  color: #2e2f42; 
 
 .menu-link:hover,
 .menu-link:focus,
 .menu-link:active {
-  color: #404bbf; /* Зміна кольору при ховері, фокусі або активному стані */
+  color: #404bbf; 
 }
+
 
 .contact-info a {
   font-weight: 500;
@@ -64,15 +68,13 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-.address {
-  font-style: normal;
+  font-style: normal; 
 }
 
 .contact-info a:hover,
 .contact-info a:focus,
 .contact-info a:active {
-  color: #404bbf; /* Зміна кольору при ховері, фокусі або активному стані */
+  color: #404bbf;
 }
 
 /* Main */
@@ -231,4 +233,9 @@ main {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+}
+
+/* Address Style */
+address {
+  font-style: normal; 
 }
