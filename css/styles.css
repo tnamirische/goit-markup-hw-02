@@ -49,16 +49,18 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455; /* Загальний колір для всіх посилань */
+  color: #434455; /* Колір за замовчуванням */
 }
 
+/* Перший пункт меню */
 .menu-link.menu-link_first {
   color: #2e2f42;
 }
 
+/* При ховері і фокусі */
 .menu-link:hover,
 .menu-link:focus {
-  color: #404bbf; /* Зміна кольору при ховері, фокусі, або активному стані */
+  color: #404bbf; /* Колір при наведенні та фокусі */
 }
 
 /* Контактна інформація */
@@ -68,13 +70,24 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal; /* Забираємо курсив */
+  font-style: normal;
 }
 
 .contact-info a:hover,
-.contact-info a:focus,
+.contact-info a:focus {
+  color: #404bbf; /* Колір при наведенні та фокусі */
+}
+
 .contact-info a:active {
   color: #4d5ae5;
+}
+
+/* Кнопка */
+.home-button:hover,
+.home-button:focus,
+.home-button:active {
+  background-color: #404bbf;
+  cursor: pointer;
 }
 
 /* Main */
