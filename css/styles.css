@@ -94,24 +94,26 @@ main {
 /* Home Section */
 .home-section {
   text-align: center;
+  background-color: #2e2f42; /* Виконано вимогу 1 */
 }
 
 .home-title {
   font-family: "Raleway", sans-serif;
   font-weight: 900;
-  font-size: 50px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  font-size: 56px; /* Виконано вимогу 2 */
+  line-height: 1.07; /* Виконано вимогу 3 */
+  letter-spacing: 0.02em; /* Виконано вимогу 4 */
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #ffffff; /* Виконано вимогу 5 */
 }
 
 .home-button {
   background-color: #4d5ae5;
   border: none;
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: 500; /* Виконано вимогу 6 */
+  font-size: 16px; /* Виконано вимогу 7 */
   line-height: 1.5;
+  letter-spacing: 0.04em; /* Виконано вимогу 8 */
   color: #ffffff;
 }
 
