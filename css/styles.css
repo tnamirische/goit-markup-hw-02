@@ -52,14 +52,10 @@ a {
   color: #434455; /* Загальний колір для всіх посилань */
 }
 
-.menu-link.menu-link_first {
-  color: #2e2f42; /* Колір для першого пункту списку */
-}
-
 .menu-link:hover,
 .menu-link:focus,
 .menu-link:active {
-  color: #404bbf; /* Зміна кольору при ховері, фокусі, або активному стані */
+  color: #404bbf; /* Зміна кольору при ховері, фокусі або активному стані */
 }
 
 /* Контактна інформація */
@@ -75,7 +71,7 @@ a {
 .contact-info a:hover,
 .contact-info a:focus,
 .contact-info a:active {
-  color: #4d5ae5;
+  color: #404bbf; /* Зміна кольору при ховері, фокусі або активному стані */
 }
 
 /* Main */
