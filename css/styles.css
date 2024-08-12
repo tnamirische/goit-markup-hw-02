@@ -52,10 +52,8 @@ a {
   color: #434455; /* Загальний колір для всіх посилань */
 }
 
-.menu-link.menu-link_first,
-.menu-link.menu-link_second,
-.menu-link.menu-link_third {
-  color: #2e2f42; /* Колір для першого, другого та третього пунктів списку */
+.menu-link.menu-link_first {
+  color: #2e2f42;
 }
 
 .menu-link:hover,
