@@ -150,10 +150,10 @@ main {
 
 .quality-title {
   font-family: "Raleway", sans-serif;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 1.5;
-  color: #4d5ae5;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
 }
 
 .quality-description {
@@ -167,6 +167,7 @@ main {
 /* Team Section */
 .team-section {
   text-align: center;
+  background-color: #f4f4fd;
 }
 
 .team-list {
